@@ -37,7 +37,7 @@ def dispatch(f):
 # Client class for interacting with Ultra's SOAP API.
 class ultraDNSSECClient:
 
-	ultraAPIBase = 'http://ultra-api.ultradns.com:8008/UltraDNS_WS/v01?wsdl' 
+	ultraAPIBase = 'https://ultra-api.ultradns.com:8008/UltraDNS_WS/v01?wsdl' 
 
 	# -------------------------------------------------------------------------
 	# Create a new Client object.
